@@ -1,13 +1,6 @@
-1、安装fedhong_dev_server模块
+const app = require('./index')
 
-npm install fedhong_dev_server --save-dev
-
-2、在项目里添加server.js（名字随便起，位置随便放），内容如下：
-
-```
-const app = require('fedhong_dev_server')
-
-app.startup({    
+app.startup({
     port: 3000, // devServer启动的端口    
     prefix: '/', // 访问页面的前缀
     root: '/', // 本地静态文件目录（这种情况适用于：编译工具编译到文件的方式，将root指向到dist或者build文件夹）
@@ -20,13 +13,4 @@ app.startup({
             "trans_rule": true // 是否传递代理规则
         }
     ]
-});
-```
-
-3、启动server
-
-node server.js
-
-4、访问
-
-默认为：http://localhost:3000 + prefix + /页面.html
+})

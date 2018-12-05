@@ -1,0 +1,26 @@
+{
+    "name": "fedhong-dev-server",
+    "version": "0.0.1",
+    "description": "基于koa2的dev server，支持接口代理、本地静态文件服务、http静态文件代理。",
+    "main": "index.js",
+    "author": {
+        "name": "fedhong",
+        "email": "www.hongliang@gmail.com"
+    },
+    "license": "ISC",
+    "devDependencies": {},
+    "configs": {
+        "compatibleVersion": "0.0.1"
+    },
+    "dependencies": {
+        "koa": "^2.6.2",
+        "koa-body": "^4.0.4",
+        "koa-router": "^7.4.0",
+        "koa-send": "^5.0.0",
+        "request": "^2.88.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/fedhong/dev-server"
+    }
+}
