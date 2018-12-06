@@ -1,11 +1,11 @@
-1、安装fedhong_dev_server模块
+1、安装@fedhong/dev-server模块
 
-npm install fedhong_dev_server --save-dev
+npm install @fedhong/dev-server --save-dev
 
 2、在项目里添加server.js（名字随便起，位置随便放），内容如下：
 
 ```
-const app = require('fedhong_dev_server')
+const app = require('@fedhong/dev-server')
 
 app.startup({    
     port: 3000, // devServer启动的端口    
