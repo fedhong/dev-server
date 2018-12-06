@@ -1,5 +1,5 @@
 {
-    "name": "@fedhong/dev-server",
+    "name": "fedhong-dev-server",
     "version": "0.0.1",
     "description": "基于koa2的dev server，支持接口代理、本地静态文件服务、http静态文件代理。",
     "main": "index.js",
